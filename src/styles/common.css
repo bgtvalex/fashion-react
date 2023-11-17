@@ -1,6 +1,7 @@
 @import url(reset.css);
 
 :root {
+  --index: calc( 1vw + 1vh);
   --black: #000;
   --white: #fff;
   --gray: #7f7f7f;
@@ -84,4 +85,23 @@ body {
   height: 117px;
   left: -26.5px;
   background-color: var(--yellow);
+}
+
+.btn {
+  position: relative;
+  padding: 13px 22px;
+  background-color: var(--black);
+  border-radius: 7px;
+
+  color: var(--white);
+  font-size: clamp(16px, 2vh, 25px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  text-align: center;
+}
+
+.btn:active {
+  top: 1px;
 }

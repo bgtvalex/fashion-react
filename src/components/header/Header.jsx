@@ -1,6 +1,7 @@
 import './header.css'
 import logoImg from './../../img/icons/logo.svg'
-import Button from '../UI/button/Button';
+import MobileNavBtn from '../UI/mobile-nav-btn/MobileNavBtn';
+import MobileNav from '../mobile-nav/MobileNav';
 
 const Header = () => {
 	return ( 
@@ -18,10 +19,12 @@ const Header = () => {
 							<li className="nav__item"><a href="#!">FAVORITE</a></li>
 							<li className="nav__item"><a href="#!">LIFESTYLE</a></li>
 						</ul>
-						<Button text='SIGN UP' />
+						<button className="header__btn btn">SIGN UP</button>
+						<MobileNavBtn />
 					</nav>
 				</div>
 			</div>
+			<MobileNav />
 		</header>
 	 );
 }

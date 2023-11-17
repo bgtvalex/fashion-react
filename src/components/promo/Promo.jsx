@@ -18,7 +18,7 @@ const Promo = () => {
 							<p>Live for Influential and Innovative fashion!</p>
 						</div>
 						<div className="promo__btn-wrapper">
-							<a href='#!' className="promo__btn btn">Shop Now</a>
+							<a href='#!' className="promo__btn btn">SHOP NOW</a>
 						</div>
 					</div>
 					<div className="promo__img">

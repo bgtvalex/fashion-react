@@ -1,0 +1,81 @@
+.mobile-nav {
+  position: fixed;
+  left: 0;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  transition: all 0.2s ease-in;
+  font-size: 22px;
+	background: linear-gradient(1deg,#e0c340 .13%,#dfc23e 3.97%,#e1c441 7.2%,#e3c743 10.13%,#e4c542 12.98%,#e6c744 15.99%,#e7c845 19.52%,#e5c643 23.96%,#e6c945 30.43%,#e3c743 36.49%,#e9ca48 42.49%,#edce49 49.35%,#f0d44c 55.42%,#f4d84f 61.43%,#f6da52 65.74%,#f7db53 72.23%,#f9dd55 77.43%,#f9df56 83.84%,#fae157 91.52%,#f9df56 97.87%);
+}
+
+.mobile-nav--open {
+  top: 0;
+}
+
+.mobile-nav .nav__list {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.nav__list a {
+  position: relative;
+	color: var(--black);
+	transition: all .2s ease-in;
+}
+
+.nav__list a:hover {
+	color: var(--white);
+	left: 20px;
+}
+
+.mobile-nav .nav__list .active a::after,
+.mobile-nav .nav__list a:hover::after {
+  display: none;
+}
+
+.mobile-nav .nav__login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 22px;
+}
+
+.mobile-nav .nav__login-btn {
+  padding: 13px 44px;
+  border-radius: 100px;
+  background: var(--gradient-orange);
+  transition: opacity 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.mobile-nav .mobile-nav-btn {
+  display: none;
+}

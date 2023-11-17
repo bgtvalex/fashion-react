@@ -1,5 +1,4 @@
 import './cta.css'
-import Button from "../UI/button/Button";
 
 const Cta = () => {
 	return ( 
@@ -11,7 +10,7 @@ const Cta = () => {
 				<div className="cta__text">Type your email down below and be young wild generation</div>
 				<form action="" className="cta__form">
 					<input type="text" className="cta__input" placeholder='Add your email here' />
-					<Button text='SEND' />
+					<button className='form__btn btn'>SEND</button>
 				</form>
 			</div>
 		</section>
