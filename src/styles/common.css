@@ -1,0 +1,87 @@
+@import url(reset.css);
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --gray: #7f7f7f;
+  --yellow: #ebd96b;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--black);
+}
+
+.container {
+  max-width: 1780px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.title-2 {
+  display: inline-block;
+  position: relative;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.04;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+}
+
+.title-2::after {
+  content: '';
+  position: absolute;
+  width: 190px;
+  height: 32px;
+  right: 0;
+  bottom: 0;
+  background-image: url(./../img/icons/list.svg);
+  z-index: -1;
+}
+
+.title-3 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 2.88px;
+}
+
+.title-4 {
+  color: var(--white);
+  text-align: center;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.27;
+  letter-spacing: 1.65px;
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.highlight span {
+  position: relative;
+  z-index: 1;
+}
+
+.highlight::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 464px;
+  height: 112px;
+  left: -38px;
+  transform: rotate(-2deg);
+  background-color: var(--white);
+  z-index: 1;
+}
+
+.highlight--yellow::before {
+  width: 496px;
+  height: 117px;
+  left: -26.5px;
+  background-color: var(--yellow);
+}

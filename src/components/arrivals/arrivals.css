@@ -1,0 +1,14 @@
+.arrivals {
+  margin-bottom: 146px;
+}
+
+.arrivals__title {
+  margin-bottom: 114px;
+}
+
+.arrivals__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 131px;
+}

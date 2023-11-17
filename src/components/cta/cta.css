@@ -1,0 +1,56 @@
+.cta {
+  background: #e5c643;
+  padding: 141px 156px;
+}
+
+.cta__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta__title {
+  width: 966px;
+  margin-bottom: 37px;
+}
+
+.cta__text {
+  color: var(--white);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.093;
+  letter-spacing: 0.96px;
+  margin-bottom: 49px;
+}
+
+.cta__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+	width: 574px;
+	height: 87px;
+
+  padding: 10px;
+  padding-left: 27px;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.cta__input {
+	width: 100%;
+	padding: 9px 10px;
+	color: var(--black);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.458;
+  letter-spacing: 0.72px;
+	border-radius: 8px;
+}
+
+.cta__input::placeholder {
+	color: var(--gray);
+}

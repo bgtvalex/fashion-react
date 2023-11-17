@@ -1,0 +1,8 @@
+React
+ - npx create-react-app fashion
+ - npm start
+ - mix-blend-mode
+
+react -> GitHub -> Pages
+ - https://www.youtube.com/watch?v=4G6O0BIoq6M
+ - https://github.com/gitname/react-gh-pages

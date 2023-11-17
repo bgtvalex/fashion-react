@@ -1,0 +1,45 @@
+.header {
+  padding: 46px 56px;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+
+.header__logo span {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.header__nav {
+	display: flex;
+	column-gap: 54px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 65px;
+}
+
+.nav__item a {
+  color: var(--black);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.22px;
+}

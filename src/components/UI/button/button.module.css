@@ -1,0 +1,18 @@
+.btn {
+  position: relative;
+  padding: 13px 22px;
+  background-color: var(--black);
+  border-radius: 7px;
+
+  color: var(--white);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  text-align: center;
+}
+
+.btn:active {
+  top: 1px;
+}
