@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/fashion-react/static/css/main.c0a9b3f7.css",
+    "main.js": "/fashion-react/static/js/main.d37dedf5.js",
+    "static/media/header-img.jpg": "/fashion-react/static/media/header-img.b68d667843b527a1a247.jpg",
+    "static/media/01.jpg": "/fashion-react/static/media/01.198ddb7cfc43e848cc1a.jpg",
+    "static/media/phone-.png": "/fashion-react/static/media/phone-.a5d5f6ee74181c29d777.png",
+    "static/media/03.jpg": "/fashion-react/static/media/03.df1e8e079b3c9a1ffdbc.jpg",
+    "static/media/02.jpg": "/fashion-react/static/media/02.1404c274aa2e20506079.jpg",
+    "static/media/google-play.svg": "/fashion-react/static/media/google-play.0f18d47a4d0d3fea0b02fe22db523022.svg",
+    "static/media/app-store.svg": "/fashion-react/static/media/app-store.9a5d38bd78f1aea4339bc4ebafab1017.svg",
+    "static/media/shopify.png": "/fashion-react/static/media/shopify.b992065dce74c0c7d6e1.png",
+    "static/media/amazon.png": "/fashion-react/static/media/amazon.87fa99a5a5c70321d7e9.png",
+    "static/media/logo.svg": "/fashion-react/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
+    "static/media/inst.svg": "/fashion-react/static/media/inst.732079676e1f1e8f5ab8d3607bb89ff5.svg",
+    "static/media/tw.svg": "/fashion-react/static/media/tw.28bd6c068f25e4ae67cd362b1da1f8d2.svg",
+    "static/media/in.svg": "/fashion-react/static/media/in.e36441e360ccd4bc3466cb67982a374d.svg",
+    "index.html": "/fashion-react/index.html",
+    "static/media/arrow.svg": "/fashion-react/static/media/arrow.8710f9c4513265089e3d8d3514143641.svg",
+    "static/media/fb.svg": "/fashion-react/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
+    "static/media/list.svg": "/fashion-react/static/media/list.1cde02ab1a06cdaddfa4fabdbd6df4ff.svg",
+    "main.c0a9b3f7.css.map": "/fashion-react/static/css/main.c0a9b3f7.css.map",
+    "main.d37dedf5.js.map": "/fashion-react/static/js/main.d37dedf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0a9b3f7.css",
+    "static/js/main.d37dedf5.js"
+  ]
+}
