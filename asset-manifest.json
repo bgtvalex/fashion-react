@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fashion-react/static/css/main.6da1f86c.css",
+    "main.css": "/fashion-react/static/css/main.ef296592.css",
     "main.js": "/fashion-react/static/js/main.5b53d60f.js",
     "static/media/header-img.jpg": "/fashion-react/static/media/header-img.b68d667843b527a1a247.jpg",
     "static/media/01.jpg": "/fashion-react/static/media/01.198ddb7cfc43e848cc1a.jpg",
@@ -19,11 +19,11 @@
     "static/media/arrow.svg": "/fashion-react/static/media/arrow.8710f9c4513265089e3d8d3514143641.svg",
     "static/media/fb.svg": "/fashion-react/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
     "static/media/list.svg": "/fashion-react/static/media/list.1cde02ab1a06cdaddfa4fabdbd6df4ff.svg",
-    "main.6da1f86c.css.map": "/fashion-react/static/css/main.6da1f86c.css.map",
+    "main.ef296592.css.map": "/fashion-react/static/css/main.ef296592.css.map",
     "main.5b53d60f.js.map": "/fashion-react/static/js/main.5b53d60f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6da1f86c.css",
+    "static/css/main.ef296592.css",
     "static/js/main.5b53d60f.js"
   ]
 }
