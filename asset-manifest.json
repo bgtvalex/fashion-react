@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/fashion-react/static/css/main.cb6bf7e4.css",
-    "main.js": "/fashion-react/static/js/main.1e46bdbd.js",
+    "main.css": "/fashion-react/static/css/main.c06f996e.css",
+    "main.js": "/fashion-react/static/js/main.69d30900.js",
+    "static/media/01.png": "/fashion-react/static/media/01.63206e95a2a75e275961.png",
     "static/media/header-img.jpg": "/fashion-react/static/media/header-img.b68d667843b527a1a247.jpg",
-    "static/media/01.jpg": "/fashion-react/static/media/01.198ddb7cfc43e848cc1a.jpg",
+    "static/media/01.jpg": "/fashion-react/static/media/01.7dccef5ee5376165e0f3.jpg",
     "static/media/phone-.png": "/fashion-react/static/media/phone-.a5d5f6ee74181c29d777.png",
     "static/media/03.jpg": "/fashion-react/static/media/03.df1e8e079b3c9a1ffdbc.jpg",
     "static/media/02.jpg": "/fashion-react/static/media/02.1404c274aa2e20506079.jpg",
@@ -20,11 +21,11 @@
     "static/media/fb.svg": "/fashion-react/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
     "static/media/star.svg": "/fashion-react/static/media/star.dbb1152f4a95997881fb94d7c07e3783.svg",
     "static/media/list.svg": "/fashion-react/static/media/list.1cde02ab1a06cdaddfa4fabdbd6df4ff.svg",
-    "main.cb6bf7e4.css.map": "/fashion-react/static/css/main.cb6bf7e4.css.map",
-    "main.1e46bdbd.js.map": "/fashion-react/static/js/main.1e46bdbd.js.map"
+    "main.c06f996e.css.map": "/fashion-react/static/css/main.c06f996e.css.map",
+    "main.69d30900.js.map": "/fashion-react/static/js/main.69d30900.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb6bf7e4.css",
-    "static/js/main.1e46bdbd.js"
+    "static/css/main.c06f996e.css",
+    "static/js/main.69d30900.js"
   ]
 }
