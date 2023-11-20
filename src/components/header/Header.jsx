@@ -2,6 +2,7 @@ import './header.css'
 import logoImg from './../../img/icons/logo.svg'
 import MobileNavBtn from '../UI/mobile-nav-btn/MobileNavBtn';
 import MobileNav from '../mobile-nav/MobileNav';
+import { useState } from 'react';
 
 const Header = () => {
 	return ( 

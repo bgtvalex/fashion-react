@@ -14,12 +14,12 @@ function App() {
       <Header />
       <Promo />
       <Brands />
-      <Arrivals />
-      <Payday />
-      <Favorite />
-      <Download />
-      <Cta />
-      <Footer />
+      {/* <Arrivals /> */}
+      {/* <Payday /> */}
+      {/* <Favorite /> */}
+      {/* <Download /> */}
+      {/* <Cta /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

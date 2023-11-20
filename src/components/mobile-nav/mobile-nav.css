@@ -1,7 +1,7 @@
 .mobile-nav {
   position: fixed;
   left: 0;
-  top: -100%;
+  top: -120%;
   width: 100%;
   height: 100%;
   z-index: 99;
@@ -21,6 +21,32 @@
   top: 0;
 }
 
+.mobile-nav .star {
+  position: absolute;
+  width: 45px;
+  height: auto;
+}
+
+.star:nth-child(1) {
+  top: clamp(0.625rem, -1.793rem + 12.09vw, 5.938rem);
+  left: 20px;
+}
+
+.star:nth-child(2) {
+  top: 95px;
+  right: 30px;
+}
+
+.star:nth-child(3) {
+  bottom: 50px;
+  left: 55px;
+}
+
+.star:nth-child(4) {
+  bottom: 75px;
+  right: 20px;
+}
+
 .mobile-nav .nav__list {
   margin-bottom: 60px;
   display: flex;
@@ -30,13 +56,29 @@
 
 }
 
-.nav__list a {
+.mobile-nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 13px;
+  margin-bottom: 30px;
+}
+
+.mobile-nav .logo span{
+  font-size: clamp(25px, 1.297rem + 1vw, 40px);
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.mobile-nav .nav__list a {
   position: relative;
 	color: var(--black);
 	transition: all .2s ease-in;
 }
 
-.nav__list a:hover {
+.mobile-nav .nav__list a:hover {
 	color: var(--white);
 	left: 20px;
 }
@@ -65,15 +107,15 @@
   border-radius: 100px;
   background: var(--gradient-orange);
   transition: opacity 0.2s ease-in;
+}
 
-  &:hover {
-    opacity: 0.8;
-  }
+.mobile-nav .nav__login-btn:hover {
+  opacity: 0.8;
+}
 
-  &:active {
-    position: relative;
-    top: 1px;
-  }
+.mobile-nav .nav__login-btn:active {
+  position: relative;
+  top: 1px;
 }
 
 .mobile-nav .mobile-nav-btn {

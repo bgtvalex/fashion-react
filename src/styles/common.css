@@ -1,7 +1,6 @@
 @import url(reset.css);
 
 :root {
-  --index: calc( 1vw + 1vh);
   --black: #000;
   --white: #fff;
   --gray: #7f7f7f;
@@ -10,12 +9,13 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--black);
+  font-size: 24px;
 }
 
 .container {
-  max-width: 1780px;
+  max-width: 1750px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 .title-2 {
@@ -59,6 +59,7 @@ body {
 }
 
 .highlight {
+  width: 100%;
   position: relative;
   display: inline-block;
 }
@@ -72,18 +73,19 @@ body {
   position: absolute;
   content: '';
   display: inline-block;
-  width: 464px;
-  height: 112px;
-  left: -38px;
+  width: clamp(232px, 11.6rem + 14.5vw, 464px);
+  height: clamp(56px, 2.508rem + 3.74vw, 112px);
+  height: 100%;
+  left: calc(clamp(19px, 0.851rem + 1.27vw, 38px) * -1);
   transform: rotate(-2deg);
   background-color: var(--white);
   z-index: 1;
 }
 
 .highlight--yellow::before {
-  width: 496px;
-  height: 117px;
-  left: -26.5px;
+  width: clamp(220px, 10.3rem + 17.25vw, 496px);
+  height: 100%;
+  left: calc(clamp(13.25px, 0.593rem + 0.89vw, 26.5px) * -1);
   background-color: var(--yellow);
 }
 
@@ -94,7 +96,7 @@ body {
   border-radius: 7px;
 
   color: var(--white);
-  font-size: clamp(16px, 2vh, 25px);
+  font-size: clamp(16px, 0.858rem + 0.53vw, 24px);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
