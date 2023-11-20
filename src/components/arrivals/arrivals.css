@@ -1,14 +1,20 @@
 .arrivals {
-  margin-bottom: 146px;
+  margin-bottom: clamp(73px, 3.65rem + 4.56vw, 146px);
 }
 
 .arrivals__title {
-  margin-bottom: 114px;
+  margin-bottom: clamp(57px, 2.85rem + 3.56vw, 114px);
 }
 
 .arrivals__row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  column-gap: 131px;
+  align-items: start;
+  column-gap: clamp(10px, -0.887rem + 7.56vw, 131px);
+}
+
+@media (max-width: 454px) {
+  .arrivals__row {
+    flex-direction: column;
+  }
 }

@@ -43,8 +43,8 @@
 }
 
 .card__img {
-  border-radius: 20px;
-  margin-bottom: 26px;
+  border-radius: clamp(5px, 0.275rem + 0.81vw, 20px);
+  margin-bottom: clamp(13px, 0.65rem + 0.81vw, 26px);
 }
 
 .card__wrapper {
@@ -54,7 +54,7 @@
 }
 
 .card__title {
-  font-size: 32px;
+  font-size: clamp(16px, 0.8rem + 1vw, 32px);
   font-style: normal;
   font-weight: 500;
   line-height: 1.5625;
@@ -63,7 +63,7 @@
 
 .card__text {
   color: var(--gray);
-  font-size: 24px;
+  font-size: clamp(12px, 0.6rem + 0.75vw, 24px);
   font-style: normal;
   font-weight: 500;
   line-height: 2.08333;
@@ -72,5 +72,13 @@
 
 .card__arrow {
 	position: relative;
+	width: clamp(17px, 0.85rem + 1.06vw, 34px);
+}
+
+@media (max-width: 454px) {
+	.card {
+		width: 100%;
+		margin-bottom: 30px;
+	}
 }
 

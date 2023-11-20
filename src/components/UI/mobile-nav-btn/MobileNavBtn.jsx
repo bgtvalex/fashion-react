@@ -10,9 +10,11 @@ const MobileNavBtn = () => {
 		if (show) {
 			document.querySelector('.mobile-nav').classList.add('mobile-nav--open')
 			btnRef.current.classList.add('nav-icon--active')
+			document.body.classList.add('no-scroll')
 		} else {
 				document.querySelector('.mobile-nav').classList.remove('mobile-nav--open')
 				btnRef.current.classList.remove('nav-icon--active')
+				document.body.classList.remove('no-scroll')
 		}
 	}, [show])
 	

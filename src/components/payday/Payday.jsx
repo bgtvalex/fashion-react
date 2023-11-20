@@ -1,5 +1,5 @@
 import './payday.css'
-import paydayImg from './../../img/payday/01.jpg'
+import paydayImg from './../../img/payday/01.png'
 import Button from '../UI/button/Button';
 
 const Payday = () => {
@@ -13,7 +13,7 @@ const Payday = () => {
 					<div className="payday__desc">
 						<div className="payday__title">
 							<h2 className="title-1">
-								<span className="highlight"><span>PAYDAY SALE NOW</span></span>
+								<span className="highlight"><span>PAYDAY</span><br /> SALE NOW</span>
 								</h2>
 						</div>
 						<div className="payday__text">Spend minimal $100 get 30% off voucher code for your next purchase</div>
