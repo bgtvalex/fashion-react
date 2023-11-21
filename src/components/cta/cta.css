@@ -1,9 +1,10 @@
 .cta {
-  background: #e5c643;
   padding-top: clamp(50px, 1.987rem + 5.69vw, 141px);
-  padding-bottom: clamp(50px, 1.987rem + 5.69vw, 141px);
   padding-right: clamp(0, -1.95rem + 9.75vw, 156px);
+  background: #e5c643;
+  padding-bottom: clamp(50px, 1.987rem + 5.69vw, 141px);
   padding-left: clamp(0, -1.95rem + 9.75vw, 156px);
+  /* padding: 141px 156px; */
 }
 
 .cta__row {
