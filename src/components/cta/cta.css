@@ -1,6 +1,9 @@
 .cta {
   background: #e5c643;
-  padding: 141px 156px;
+  padding-top: clamp(50px, 1.987rem + 5.69vw, 141px);
+  padding-bottom: clamp(50px, 1.987rem + 5.69vw, 141px);
+  padding-right: clamp(0, -1.95rem + 9.75vw, 156px);
+  padding-left: clamp(0, -1.95rem + 9.75vw, 156px);
 }
 
 .cta__row {
@@ -11,17 +14,18 @@
 }
 
 .cta__title {
-  width: 966px;
-  margin-bottom: 37px;
+  width: clamp(290px, 9.675rem + 42.25vw, 966px);
+  margin-bottom: clamp(18.5px, 0.925rem + 1.16vw, 37px);
 }
 
 .cta__text {
   color: var(--white);
-  font-size: 32px;
+  font-size: clamp(16px, 0.8rem + 1vw, 32px);
   font-style: normal;
   font-weight: 400;
   line-height: 1.093;
   letter-spacing: 0.96px;
+  text-align: center;
   margin-bottom: 49px;
 }
 
@@ -30,8 +34,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-	width: 574px;
-	height: 87px;
+	width: clamp(290px, 14.575rem + 17.75vw, 574px);
 
   padding: 10px;
   padding-left: 27px;
@@ -43,7 +46,7 @@
 	width: 100%;
 	padding: 9px 10px;
 	color: var(--black);
-  font-size: 24px;
+  font-size: clamp(16px, 0.6rem + 0.75vw, 24px);
   font-style: normal;
   font-weight: 400;
   line-height: 1.458;
@@ -53,4 +56,16 @@
 
 .cta__input::placeholder {
 	color: var(--gray);
+}
+
+.form__btn {
+  padding: 17px 38px !important;
+}
+
+@media (max-width: 424px) {
+  .cta__form {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
 }

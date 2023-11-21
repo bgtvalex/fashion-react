@@ -1,5 +1,5 @@
 import './download.css'
-import img1 from './../../img/download/phone-.png'
+import img1 from './../../img/download/phone.png'
 import img2 from './../../img/icons/google-play.svg'
 import img3 from './../../img/icons/app-store.svg'
 

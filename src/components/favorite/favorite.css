@@ -1,14 +1,20 @@
 .favorite {
-	margin-bottom: 221px;
+	margin-bottom: clamp(110.5px, 5.525rem + 6.91vw, 221px);
 }
 
 .favorite__title {
-	margin-bottom: 118px;
+	margin-bottom: clamp(59px, 2.95rem + 3.69vw, 118px);
 }
 
-.favorite__row{
+.favorite__row {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 48px;
+	gap: clamp(24px, 1.2rem + 1.5vw, 48px);
+}
+
+@media (max-width: 767px) {
+	.favorite__row {
+		flex-direction: column;
+	}
 }

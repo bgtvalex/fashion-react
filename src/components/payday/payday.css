@@ -5,27 +5,18 @@
 }
 
 .payday__row {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-  /* gap: clamp(10px, -0.325rem + 4.75vw, 86px); */
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 86px;
-}
-
-.payday__img {
-  /* width: 70%; */
+  padding: 100px 0 0px;
 }
 
 .payday__desc {
-	/* width: 48%; */
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .payday__title {
-  width: 593px;
   margin-bottom: 33px;
 }
 
@@ -59,17 +50,35 @@
 
 
 @media (max-width: 1023px) {
-  .payday__desc {
-    padding: 100px 0;
+  .payday__row {
+    grid-template-columns: 1fr;
+    padding: 100px 0 100px;
   }
 
-  .payday__row {
-    flex-direction: column;
+  .payday__desc {
+    padding: 0 0 0 100px;
   }
   
   .payday__img {
     width: 100%;
+    text-align: center;
+  }
+  
+  .payday__img img {
+    width: 80%;
   }
 }
 
-/* @media (max-width: ) */
+@media (max-width: 767px) {
+  .payday__row {
+    padding: 50px 0;
+    gap: 48px;
+  }
+  .payday__img img {
+    width: 100%;
+  }
+  
+  .payday__desc {
+    padding: 0 0 0 50px;
+  }
+}

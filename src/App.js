@@ -15,11 +15,11 @@ function App() {
       <Promo />
       <Brands />
       <Arrivals />
-      {/* <Payday /> */}
-      {/* <Favorite /> */}
-      {/* <Download /> */}
-      {/* <Cta /> */}
-      {/* <Footer /> */}
+      <Payday />
+      <Favorite />
+      <Download />
+      <Cta />
+      <Footer />
     </div>
   );
 }

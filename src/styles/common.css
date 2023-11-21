@@ -19,7 +19,6 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--black);
   font-size: 24px;
-  border: 1px solid red;
 }
 
 .container {
@@ -53,7 +52,7 @@ body {
 }
 
 .title-3 {
-  font-size: 48px;
+  font-size: clamp(24px, 1.2rem + 1.5vw, 48px);
   font-style: normal;
   font-weight: 900;
   line-height: 1.5;
@@ -63,7 +62,7 @@ body {
 .title-4 {
   color: var(--white);
   text-align: center;
-  font-size: 55px;
+  font-size: clamp(27.5px, 1.375rem + 1.72vw, 55px);
   font-style: normal;
   font-weight: 900;
   line-height: 1.27;
