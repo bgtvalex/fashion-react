@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/fashion-react/static/css/main.a94decfa.css",
-    "main.js": "/fashion-react/static/js/main.89e3eac8.js",
-    "static/media/01.png": "/fashion-react/static/media/01.bea9562123fad46cdce5.png",
-    "static/media/header-img.jpg": "/fashion-react/static/media/header-img.b68d667843b527a1a247.jpg",
-    "static/media/01.jpg": "/fashion-react/static/media/01.7dccef5ee5376165e0f3.jpg",
-    "static/media/phone.png": "/fashion-react/static/media/phone.a5d5f6ee74181c29d777.png",
-    "static/media/03.jpg": "/fashion-react/static/media/03.df1e8e079b3c9a1ffdbc.jpg",
-    "static/media/02.jpg": "/fashion-react/static/media/02.1404c274aa2e20506079.jpg",
+    "main.js": "/fashion-react/static/js/main.6ad67756.js",
+    "static/media/01.png": "/fashion-react/static/media/01.c74a9195806d9c0b88bf.png",
+    "static/media/header-img.jpg": "/fashion-react/static/media/header-img.12196ad8f3739daa752f.jpg",
     "static/media/google-play.svg": "/fashion-react/static/media/google-play.0f18d47a4d0d3fea0b02fe22db523022.svg",
     "static/media/app-store.svg": "/fashion-react/static/media/app-store.9a5d38bd78f1aea4339bc4ebafab1017.svg",
-    "static/media/shopify.png": "/fashion-react/static/media/shopify.b992065dce74c0c7d6e1.png",
-    "static/media/amazon.png": "/fashion-react/static/media/amazon.ca0ca6a583f5de28ad43.png",
+    "static/media/phone.png": "/fashion-react/static/media/phone.fb84d74ebe9b72a2a789.png",
+    "static/media/01.jpg": "/fashion-react/static/media/01.cc59bb0ecb95f5ec9160.jpg",
+    "static/media/03.jpg": "/fashion-react/static/media/03.ca01bc28401c56b34e97.jpg",
+    "static/media/02.jpg": "/fashion-react/static/media/02.2fb0a231b7ff240b4f73.jpg",
     "static/media/logo.svg": "/fashion-react/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
     "static/media/inst.svg": "/fashion-react/static/media/inst.732079676e1f1e8f5ab8d3607bb89ff5.svg",
     "static/media/tw.svg": "/fashion-react/static/media/tw.28bd6c068f25e4ae67cd362b1da1f8d2.svg",
@@ -22,10 +20,10 @@
     "static/media/star.svg": "/fashion-react/static/media/star.dbb1152f4a95997881fb94d7c07e3783.svg",
     "static/media/list.svg": "/fashion-react/static/media/list.1cde02ab1a06cdaddfa4fabdbd6df4ff.svg",
     "main.a94decfa.css.map": "/fashion-react/static/css/main.a94decfa.css.map",
-    "main.89e3eac8.js.map": "/fashion-react/static/js/main.89e3eac8.js.map"
+    "main.6ad67756.js.map": "/fashion-react/static/js/main.6ad67756.js.map"
   },
   "entrypoints": [
     "static/css/main.a94decfa.css",
-    "static/js/main.89e3eac8.js"
+    "static/js/main.6ad67756.js"
   ]
 }
