@@ -63,6 +63,18 @@
   padding: 17px 38px !important;
 }
 
+@media (max-width: 1023px) {
+  .cta {
+    padding: 90px 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cta {
+    padding: 50px 0px;
+  }
+}
+
 @media (max-width: 424px) {
   .cta__form {
     flex-direction: column;
